@@ -12,7 +12,7 @@ html,body{
 
 .nav-style{
     display: flex;
-    position: fixed;
+    position: relative;
     justify-content: space-between;
     align-items: center;
     width: 100%;
