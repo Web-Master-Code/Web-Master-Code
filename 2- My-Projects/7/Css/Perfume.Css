@@ -1,0 +1,235 @@
+body{
+    margin: 0;
+    background-color: rgb(255, 255, 230);
+    font-family: Roboto;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+    transition: 0.50s all;
+}
+
+.container-style{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 620px;
+    height: 450px;
+    border-radius: 15px;
+    transition: 0.50s all;
+}
+
+.image-desktop{
+    display: inline-block;
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    transition: 0.50s all;
+}
+
+.image-mobile{
+    display: none;
+    transition: 0.50s all;
+}
+
+.right-section{
+    margin-left: 30px;
+    margin-top: 30px;
+    transition: 0.50s all;
+}
+
+.text1{
+    font-size: 12px;
+    color: rgb(120, 120, 120);
+    transition: 0.50s all;
+}
+
+.text2{
+    font-family: Linden Hill;
+    width: 180px;
+    font-weight: bolder;
+    transition: 0.50s all;
+}
+
+.text3{
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+    transition: 0.50s all;
+}
+
+.row-text{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: 0.50s all;
+}
+
+.text4{
+    font-family: Linden Hill;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(0, 100, 60, 0.7);
+    margin-right: 20px;
+    transition: 0.50s all;
+}
+
+.text5{
+    font-family: Linden Hill;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: line-through;
+    color: rgb(120, 120, 120);
+    transition: 0.50s all;
+}
+
+.butt-style{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: 0.50s all;
+}
+
+.SVG-cart{
+    width: 25px;
+    margin-right: 10px;
+    transition: 0.50s all;
+}
+
+.butt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 45px;
+    background-color: rgba(0, 100, 60, 0.7);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.50s all;
+}
+
+.butt:hover{
+    background-color: rgba(0, 80, 60, 1);
+}
+
+
+@media (max-width: 620px) {
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .container-style{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 460px;
+        height: 740px;
+        border-radius: 0px;
+    }
+    
+    .image-desktop{
+        display: none;
+        width: 460px;
+        height: 300px;
+        object-fit: cover;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+    
+    .image-mobile{
+        display: flex;
+        width: 460px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 15px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    
+    .right-section{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    
+    .text1{
+        font-size: 12px;
+        color: rgb(120, 120, 120);
+    }
+    
+    .text2{
+        font-family: Linden Hill;
+        width: 180px;
+        font-weight: bolder;
+    }
+    
+    .text3{
+        font-size: 14px;
+        color: rgb(120, 120, 120);
+    }
+    
+    .row-text{
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .text4{
+        font-family: Linden Hill;
+        font-weight: bold;
+        font-size: 30px;
+        color: rgba(0, 100, 60, 0.7);
+        margin-right: 20px;
+    }
+    
+    .text5{
+        font-family: Linden Hill;
+        font-weight: bold;
+        font-size: 16px;
+        text-decoration: line-through;
+        color: rgb(120, 120, 120);
+    }
+    
+    .butt-style{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .SVG-cart{
+        width: 25px;
+        margin-right: 10px;
+    }
+    
+    .butt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+        height: 45px;
+        background-color: rgba(0, 100, 60, 0.7);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .butt:hover{
+        background-color: rgba(0, 80, 60, 1);
+    }
+}

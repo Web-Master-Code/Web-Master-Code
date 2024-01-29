@@ -1,0 +1,10 @@
+CARDHOLDER NAME
+e.g. Jane Appleseed
+CARD NUMBER
+e.g. 1234 5678 9123 0000
+EXP. DATE (MM/YY)
+MM
+YY
+CVC
+e.g. 123
+Confirm

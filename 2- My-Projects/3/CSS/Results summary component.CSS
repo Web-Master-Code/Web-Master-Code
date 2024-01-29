@@ -1,0 +1,537 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    transition: 0.50s all;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+    transition: 0.50s all;
+}
+
+.style_container{
+    width: 820px;
+    height: 520px;
+    background-color: white;
+    border-radius: 25px;
+    transition: 0.50s all;
+}
+
+.row{
+    display: flex;
+    height: 520px;
+    transition: 0.50s all;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(100, 10, 255);
+    border-radius: 25px;
+    color: white;
+    width: 425px;
+    transition: 0.50s all;
+}
+
+.left-div-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.50s all;
+}
+
+.text1{
+    margin-bottom: 40px;
+    font-size: 24px;
+    color: color-mix(in srgb, white 50%, gray 50%);
+    transition: 0.50s all;
+}
+
+.Circle{
+    background-color: color-mix(in srgb, rgb(100, 10, 255) 60%, black 40%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: 0.50s all;
+}
+
+.style-circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    transition: 0.50s all;
+}
+
+h1{
+    font-size: 54px;
+    transition: 0.50s all;
+}
+
+.woah{
+    color: rgb(200, 200, 200);
+    margin-top: -30px;
+    font-size: 16px;
+    transition: 0.50s all;
+}
+
+.text2{
+    margin-top: 35px;
+    font-size: 32px;
+    transition: 0.50s all;
+}
+
+.woah2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.50s all;
+}
+
+.span2style{
+    width: 220px;
+    transition: 0.50s all;
+}
+
+.textwoah{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.50s all;
+}
+
+.right{
+    display: flex;
+    align-items: start;
+    transition: 0.50s all;
+}
+
+.right-div-style{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 40px;
+    transition: 0.50s all;
+}
+
+h2{
+    margin-top: 53px;
+    margin-bottom: 40px;
+    transition: 0.50s all;
+}
+
+.Q-list{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    transition: 0.50s all;
+}
+
+.Q1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(255, 125, 125,0.120);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: 0.50s all;
+}
+
+.Q-1{
+    display: flex;
+    align-items: center;
+    transition: 0.50s all;
+}
+
+.Q1-text1{
+    color: rgba(255, 125, 125);
+    font-weight: bold;
+    margin-left: 10px;
+    transition: 0.50s all;
+}
+
+.Q2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(255, 191, 0, 0.120);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: 0.50s all;
+}
+
+.Q-2{
+    display: flex;
+    align-items: center;
+    transition: 0.50s all;
+}
+
+.Q2-text1{
+    color: rgba(255, 191, 0);
+    font-weight: bold;
+    margin-left: 10px;
+    transition: 0.50s all;
+}
+
+.Q3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(0, 220, 180, 0.120);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: 0.50s all;
+}
+
+.Q-3{
+    display: flex;
+    align-items: center;
+    transition: 0.50s all;
+}
+
+.Q3-text1{
+    color: rgb(0, 200, 160);
+    font-weight: bold;
+    margin-left: 10px;
+    transition: 0.50s all;
+}
+
+.Q4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(0, 100, 210, 0.12);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    transition: 0.50s all;
+}
+
+.Q-4{
+    display: flex;
+    align-items: center;
+    transition: 0.50s all;
+}
+
+.Q4-text1{
+    color: rgba(0, 100, 210);
+    font-weight: bold;
+    margin-left: 10px;
+    transition: 0.50s all;
+}
+
+.button1{
+    width: 310px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(20, 40, 60);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.50s all;
+}
+
+.button1:hover{
+    background-color: rgb(100, 10, 255);
+}
+
+
+@media (max-width: 820px) {
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+        transition: 0.50s all;
+    }
+    
+    .style_container{
+        width: 500px;
+        height: 860px;
+        background-color: white;
+        border-radius: 0;
+        transition: 0.50s all;
+    }
+    
+    .row{
+        display: flex;
+        flex-direction: column;
+        transition: 0.50s all;
+    }
+    
+    .left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(100, 10, 255);
+        border-radius: 0px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        color: white;
+        width: 500px;
+        height: 400px;
+        transition: 0.50s all;
+    }
+    
+    .left-div-style{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 0.50s all;
+    }
+    
+    .text1{
+        margin-bottom: 20px;
+        margin-top: 50px;
+        font-size: 24px;
+        color: rgb(230, 230, 230);
+        transition: 0.50s all;
+    }
+    
+    .Circle{
+        background-color: color-mix(in srgb, rgb(100, 10, 255) 60%, black 40%);
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        transition: 0.50s all;
+    }
+    
+    .style-circle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        transition: 0.50s all;
+    }
+    
+    h1{
+        font-size: 44px;
+        transition: 0.50s all;
+    }
+    
+    .woah{
+        color: rgb(230, 230, 230);
+        margin-top: -30px;
+        font-size: 16px;
+        transition: 0.50s all;
+    }
+    
+    .text2{
+        margin-top: 20px;
+        font-size: 32px;
+        transition: 0.50s all;
+    }
+    
+    .woah2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 0.50s all;
+    }
+    
+    .span2style{
+        display: flex;
+        margin-left: 10px;
+        justify-content: center;
+        width: 280px;
+        transition: 0.50s all;
+    }
+    
+    .textwoah{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        transition: 0.50s all;
+        margin-top: -20px;
+        margin-bottom: 30px;
+        color: rgb(230, 230, 230);
+    }
+    
+    .right{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        transition: 0.50s all;
+    }
+    
+    .right-div-style{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: 0.50s all;
+    }
+    
+    h2{
+        margin-top: 33px;
+        margin-left: -350px;
+        margin-bottom: 20px;
+        color: rgb(100, 100, 100);
+        transition: 0.50s all;
+    }
+    
+    .Q-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 0.50s all;
+    }
+    
+    .Q1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 400px;
+        height: 50px;
+        margin-left: -35px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: rgba(255, 125, 125,0.120);
+        border-radius: 10px;
+        margin-bottom: 20px;
+        transition: 0.50s all;
+    }
+    
+    .Q-1{
+        display: flex;
+        align-items: center;
+        transition: 0.50s all;
+    }
+    
+    .Q1-text1{
+        color: rgba(255, 125, 125);
+        font-weight: bold;
+        margin-left: 10px;
+        transition: 0.50s all;
+    }
+    
+    .Q2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 400px;
+        height: 50px;
+        margin-left: -35px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: rgba(255, 191, 0, 0.120);
+        border-radius: 10px;
+        margin-bottom: 20px;
+        transition: 0.50s all;
+    }
+    
+    .Q-2{
+        display: flex;
+        align-items: center;
+        transition: 0.50s all;
+    }
+    
+    .Q2-text1{
+        color: rgba(255, 191, 0);
+        font-weight: bold;
+        margin-left: 10px;
+        transition: 0.50s all;
+    }
+    
+    .Q3{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 400px;
+        height: 50px;
+        margin-left: -35px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: rgba(0, 220, 180, 0.120);
+        border-radius: 10px;
+        margin-bottom: 20px;
+        transition: 0.50s all;
+    }
+    
+    .Q-3{
+        display: flex;
+        align-items: center;
+        transition: 0.50s all;
+    }
+    
+    .Q3-text1{
+        color: rgb(0, 200, 160);
+        font-weight: bold;
+        margin-left: 10px;
+        transition: 0.50s all;
+    }
+    
+    .Q4{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 400px;
+        height: 50px;
+        margin-left: -35px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: rgba(0, 100, 210, 0.12);
+        border-radius: 10px;
+        margin-bottom: 40px;
+        transition: 0.50s all;
+    }
+    
+    .Q-4{
+        display: flex;
+        align-items: center;
+        transition: 0.50s all;
+    }
+    
+    .Q4-text1{
+        color: rgba(0, 100, 210);
+        font-weight: bold;
+        margin-left: 10px;
+        transition: 0.50s all;
+    }
+    
+    .button1{
+        width: 310px;
+        height: 50px;
+        border: none;
+        border-radius: 25px;
+        margin-left: -35px;
+        background-color: rgb(20, 40, 60);
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.50s all;
+    }
+    
+    .button1:hover{
+        background-color: rgb(100, 10, 255);
+    }
+}

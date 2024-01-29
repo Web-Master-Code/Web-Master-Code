@@ -1,0 +1,108 @@
+body{
+    font-family: Arial;
+    background-color: rgb(20, 20, 20);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+.container-style{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 480px;
+    border-radius: 30px;
+    color: rgb(red, green, blue);
+    background-color: rgb(35, 40, 50);
+}
+
+.star{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.circle-star-style{
+    background-color: rgb(50, 55, 65);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.star-style{
+    width: 20px;
+}
+
+
+.Text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.text-style1{
+    font-size: 28px;
+    margin-top: 40px;
+}
+
+.text-style2{
+    font-size: 18px;
+    font-weight: 100px;
+    color: gainsboro;
+}
+
+
+.page-balls-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.ball{
+    color: gainsboro;
+    font-weight: 100;
+    background-color: rgb(50, 55, 65);
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.50s all;
+}
+
+.ball:hover{
+    background-color: rgb(200,100, 0);
+    color: white;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.button-style{
+    width: 360px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(200,100, 0);
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.50s all;
+}
+
+.button-style:hover{
+    background-color: white;
+    color: rgb(200,100, 0);
+}

@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.container_style{
+    display: flex;
+    width: 400px;
+    height: 430px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.div_textstyle{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 40px;
+}
+
+.image1{
+    display: flex;
+    margin-left: 50px;
+    width: 60px;
+}
+
+h1{
+    display: flex;
+    margin-left: 50px;
+    width: 250px;
+    font-size: 45px;
+    color: rgb(59, 56, 82);
+}
+
+p{
+    margin: 0;
+    margin-top: -10px;
+    margin-left: 50px;
+    font-size: 14px;
+    color: rgb(60, 60, 60);
+    width: 320px;
+}
+
+.button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 320px;
+    height: 45px;
+    border: none;
+    background-color: rgb(59, 56, 82);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.50s all;
+}
+
+.button1:hover{
+    background-color:color-mix(in lch shorter hue, rgb(220, 60, 100) 50%, rgb(255, 100, 40) 50%);
+    box-shadow: 2px 13px 15px 8px rgba(230, 80, 60, 0.2);
+}   
+
+
+
+@media (max-width:850px) {
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    
+    .container_style{
+        display: flex;
+        width: 400px;
+        height: 776px;
+        background-color: white;
+        border-radius: 0px;
+    }
+    
+    .div_textstyle{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-top: 160px;
+    }
+    
+    .image1{
+        display: flex;
+        margin-left: 50px;
+        width: 60px;
+    }
+    
+    h1{
+        display: flex;
+        margin-left: 50px;
+        width: 250px;
+        font-size: 45px;
+        color: rgb(59, 56, 82);
+    }
+    
+    p{
+        margin: 0;
+        margin-left: 50px;
+        font-size: 16px;
+        color: rgb(60, 60, 60);
+        width: 350px;
+    }
+    
+    .button1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+        margin-top: 220px;
+        width: 320px;
+        height: 45px;
+        border: none;
+        background-color: rgb(59, 56, 82);
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.50s all;
+    }
+    
+    .button1:hover{
+        background-color:color-mix(in lch shorter hue, rgb(220, 60, 100) 50%, rgb(255, 100, 40) 50%);
+        box-shadow: 2px 13px 15px 8px rgba(230, 80, 60, 0.2);
+    }   
+}

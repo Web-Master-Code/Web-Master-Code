@@ -1,0 +1,145 @@
+body{
+    font-family: Arial;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container-style{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    height: 650px;
+    background-color: white;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 0 18px 10px rgb(0,0,0,0.08);
+    -moz-box-shadow: 0 0 18px 10px rgb(0,0,0,0.08);
+    box-shadow: 0 0 18px 10px rgb(0,0,0,0.08);
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.image-style{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 420px;
+}
+
+
+.Text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 25px;
+}
+
+.text-style1{
+    font-size: 27px;
+    font-weight: 800;
+    color: rgb(20,60,120);
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.text-style2{
+    color: rgb(140, 140, 180);
+    line-height: 24px;
+}
+
+
+.Songs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.song-icon{
+    margin-right: 20px;
+}
+
+.text-col{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    line-height: 24px;
+}
+
+.text-col-style1{
+    color: rgb(20,60,120);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.text-col-style2{
+    font-size: 17px;
+    color: rgb(140, 140, 180);
+}
+
+.change-link{
+    color: rgb(40, 40, 220);
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.50s all;
+}
+
+.change-link:hover{
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.Buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-button{
+    margin-bottom: 30px;
+    border: none;
+    width: 340px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: rgb(40, 40, 220);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-box-shadow: 0 20px 16px 3px rgba(40, 40, 220, 0.150);
+    -moz-box-shadow: 0 20px 16px 3px rgba(40, 40, 220, 0.150);
+    box-shadow: 0 20px 16px 3px rgba(40, 40, 220, 0.150);
+    cursor: pointer;
+    transition: 0.50s all;
+}
+
+.payment-button:hover{
+    opacity: 0.8;
+}
+
+.payment-cancle{
+    color: rgb(140, 140, 180);
+    font-size: 14px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.50s all;
+}
+
+.payment-cancle:hover{
+    color: rgb(20,60,120);
+}

@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.QR_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    transition: 0.50s all;
+}
+
+.container_style{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    border-radius: 20px;
+    transition: 0.50s all;
+}
+
+.QRCode{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Image1{
+    width: 260px;
+    border-radius: 10px;
+    object-fit: contain;
+    margin-top: 17px;
+    cursor: auto;
+    transition: 0.50s all;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Text_container_style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: 0.50s all;
+}
+
+.Text1{
+    width: 240px;
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.50s all;
+}
+
+.Text2{
+    width: 240px;
+    display: flex;
+    font-size: 14px;
+    color: gray;
+    transition: 0.50s all;
+
+}
+
+
+@media (max-width: 700px) {
+    
+    .QR_container{
+        margin-top: 60px;
+    }
+
+    .container_style{
+        width: 460px;
+        height: 670px;
+        background-color: white;
+        border-radius: 20px;
+    }
+    
+    .Image1{
+        width: 425px;
+        border-radius: 10px;
+        object-fit: contain;
+        margin-top: 15px;
+    }
+    
+    .Text1{
+        width: 340px;
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    
+    .Text2{
+        width: 320px;
+        display: flex;
+        font-size: 18px;
+        color: gray;
+    
+    }
+    
+}
