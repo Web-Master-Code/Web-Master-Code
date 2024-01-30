@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Margins - Paddings</title>
-        <link rel="stylesheet" href="CSS/margin-padding.css">
+        <title>Center A Div</title>
+        <link rel="stylesheet" href="CSS/Center-a-Div.css">
         <link rel="stylesheet" href="CSS/Nav-Footer.Css">
         <link rel="shortcut icon" href="images/instagram_profile_image.png">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -38,36 +39,51 @@
 
         </header>
 
-        <div class="text">
-            <span>Hover Over the containers to see the results</span>
-        </div>
+        <div class="text">Hover over the containers to see the results</div>
 
         <main class="container">
 
             <div class="container-style">
 
-                <div class="black-container">Padding-block: 20px</div>
-                <div class="black-container-2">Padding-inline: 40px</div>
+                <div class="center-a-div">
 
-            </div>
+                    <div style="display: flex;flex-direction: column;
+                    gap: 5px;text-align: center;">
+                        <span>align-items: center;</span>
+                        <span>justify-content: center;</span>
+                    </div>
 
-        </main>
+                    <div class="parent">
+                        
+                        <div class="chiled">
 
-        <main class="container2">
+                        </div>
 
-            <div class="container2-style">
+                    </div>
 
-                <div class="upper">
-                    <div class="upper-elem"></div>
-                    <div class="black-container2">margin-block: 20px</div>
-                    <div class="lower-elem"></div>
                 </div>
 
-                <div class="lower">
-                    <div class="upper-elem2"></div>
-                    <div class="black-container2-2">margin-inline: 40px</div>
-                    <div class="lower-elem2"></div>
+
+
+                <div class="center-a-div">
+
+                    <div style="display: flex;flex-direction: column;
+                    gap: 5px;text-align: center;">
+                        <span>display: grid;</span>
+                        <span>place-content: center;</span>
+                    </div>
+
+                    <div class="parent2">
+                        
+                        <div class="chiled2">
+
+                        </div>
+
+                    </div>
+
                 </div>
+
+
 
             </div>
 
@@ -98,7 +114,6 @@
             </div>
 
         </footer>
-
 
     </body>
 
