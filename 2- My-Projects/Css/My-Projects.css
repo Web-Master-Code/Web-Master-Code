@@ -21,24 +21,14 @@
     align-items: center;
     width: 250px;
     height: 250px;
-    background-color: white;
+    background-image: url('../images/Project.png');
     border-radius: 20px;
     transition: all 0.50s;
-}
-
-.img{
-    display: flex;
-    width: 250px;
-    height: 250px;
-    border-radius: 20px;
     cursor: pointer;
-    position: absolute;
-    transition: all 0.50s;
 }
 
 .GoTo{
     display: none;
-    position: relative;
     align-items: center;
     justify-content: center;
     width: 150px;
@@ -60,19 +50,39 @@
     box-shadow: 1px 1px 10px 4px rgba(0, 0, 0, 0.1);
 }
 
-.img:hover{
-    filter: blur(3px);
-}
-
-.GoTo:hover .img{
-    filter: blur(3px);
-}
-
 .project:hover .GoTo{
     display: flex;
+    box-shadow: 0px 0px 55px 55px rgba(0, 0, 0, 0.3);
 }
 
 @keyframes slide-in {
     from {width: 0px;height: 0px;}
     to {width: 150px; height: 40px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.trying{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/Project.png');
+    width: 250px;
+    height: 250px;
+}
+
+.trying:hover .GoTo{
+    display: flex;
 }
