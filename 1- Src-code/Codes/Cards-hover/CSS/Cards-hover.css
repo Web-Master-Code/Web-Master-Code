@@ -23,14 +23,14 @@
     gap: 50px;
 }
 
-img{
+.cards > img{
     display: flex;
     width: 250px;
     border-radius: 50%;
     transition: all 0.50s;
 }
 
-img:hover{
+.cards > img:hover{
     width: 280px;
     border: 3px solid #5271ff;
 }
