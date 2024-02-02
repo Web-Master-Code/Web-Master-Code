@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.container-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    gap: 100px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+img{
+    display: flex;
+    width: 250px;
+    border-radius: 50%;
+    transition: all 0.50s;
+}
+
+img:hover{
+    width: 280px;
+    border: 3px solid #5271ff;
+}
