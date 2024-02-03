@@ -1,0 +1,52 @@
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;    
+    color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 200px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    gap: 100px;
+}
+
+.text2{
+    font-size: 40px;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.text2:hover{
+    background: linear-gradient(to right,#5271ff,#94a8ee 35%,#FFF);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 2s linear infinite;
+}
+
+@keyframes gradient {
+    0% {background-position: 0% 100%;}
+    50% {background-position: 100% 0%;}
+    100% {background-position: 0% 100%;}
+}
