@@ -48,6 +48,7 @@
     object-fit: cover;
     border-radius: 15px;
     cursor: pointer;
+    transition: all 0.50s;
 }
 
 .img:hover{
@@ -66,11 +67,40 @@
     text-decoration: underline;
 }
 
+.container2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
 
+.container2-style{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
 
+.back, .next, .num{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
 
+.num1{
+    font-size: 18px;
+    text-decoration: none;
+    color: #5271ff;
+    cursor: pointer;
+}
 
+.num:hover, .num1:hover{
+    text-decoration: underline;
+}
 
+.dash{
+    font-size: 18px;
+}
 
 
 
