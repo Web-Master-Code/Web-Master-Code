@@ -61,6 +61,13 @@ html,body{
     cursor: pointer;
 }
 
+.close{
+    display: none;
+    align-items: center;
+    width: 25px;
+    cursor: pointer;
+}
+
 .nav-right-side{
     display: flex;
     justify-content: flex-end;
@@ -173,32 +180,45 @@ html,body{
 
 .pos{
     display: flex;
+    align-items: center;
     margin-right: 5%;
-    z-index: 99;
 }
 
 .menu{
     display: flex;
-    z-index: 99;
+    position: relative;
+    opacity: 1;
+    margin-right: -38px;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: all 0.50s;
+}
+
+.close{
+    display: flex;
+    opacity: 0;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: all 0.50s;
+}
+
+#check:checked ~ .pos > .menu{
+    opacity: 0;
+}
+
+#check:checked ~ .pos > .close{
+    opacity: 1;
 }
 
 #check:checked ~ .nav-right-side{
-    display: flex;
-    animation: wipe-in-bottom-left;
-    animation-duration: 1s;
+    opacity: 1;
+    transform: translateX(0px);
 }
 
-@keyframes wipe-in-bottom-left {
-    from {
-      clip-path: polygon(50% -50%, 150% 50%, 150% 50%, 50% -50%);
-    }
-    to {
-      clip-path: polygon(50% -50%, 150% 50%, 50% 150%, -50% 50%);
-    }
-  }
-
 .nav-right-side{
-    display: none;
+    display: flex;
+    opacity: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -211,6 +231,8 @@ html,body{
     color: white;
     border-bottom-left-radius: 15px;
     background-color: #5271ff;
+    transform: translateX(200px);
+    transition: all 0.30s;
 }
 
 .footer-style{
