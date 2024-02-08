@@ -9,6 +9,7 @@
     align-items: center;
     gap: 50px;
     padding: 2%;
+    padding-bottom: 4%;
     border: 1px solid #5271ff;
     width: 80%;
     height: auto;
@@ -315,6 +316,7 @@
     align-items: center;
     gap: 50px;
     padding: 2%;
+    padding-bottom: 5%;
     border: 1px solid #5271ff;
     width: 80%;
     height: auto;
