@@ -1,0 +1,129 @@
+.text-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 20px;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;    
+    color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.container-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    gap: 20px;
+}
+
+.text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.container-wrap1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 0px;
+    width: 80%;
+    height: auto;
+    gap: 20px;
+    border: 3px solid white;
+    font-size: 20px;
+    color: #5271ff;
+    transition: all 2s;
+}
+
+.container-wrap1:hover{
+    width: 10%;
+}
+
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100px;
+    height: 85px;
+    border-radius: 10px;
+}
+
+.container-wrap2{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 0px;
+    width: 80%;
+    height: auto;
+    gap: 20px;
+    border: 3px solid white;
+    font-size: 20px;
+    color: #5271ff;
+    transition: all 2s;
+}
+
+.container-wrap2:hover{
+    width: 10%;
+}
+
+.container-wrap3{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 0px;
+    width: 80%;
+    height: auto;
+    gap: 20px;
+    border: 3px solid white;
+    font-size: 20px;
+    color: #5271ff;
+    transition: all 2s;
+}
+
+.container-wrap3:hover{
+    width: 20%;
+}
+
+
+@media (max-width:550px) {
+    
+.container-wrap1,.container-wrap2,.container-wrap3{
+    width: 100%;
+}
+
+.container-wrap1:hover,.container-wrap2:hover{
+    width: 30%;
+}
+.container-wrap3:hover{
+    width: 40%;
+}
+
+}
