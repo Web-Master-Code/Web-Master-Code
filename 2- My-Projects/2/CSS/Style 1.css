@@ -8,7 +8,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 35px;
 }
 
 .container-style{
@@ -21,4 +21,11 @@ body{
     height: 620px;
     border-radius: 20px;
     background-color: white;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    
 }
