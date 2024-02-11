@@ -8,17 +8,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 35px;
+    margin-top: 90px;
 }
 
 .container-style{
     display: flex;
-    justify-content:space-between;
-    padding-left: 1%;
-    padding-right: 1%;
-    align-items: center;
+    justify-content: space-between;
+    padding: auto;
     width: 80%;
-    height: 620px;
+    height: auto;
+    padding: 1.5% 1.5%;
     border-radius: 20px;
     background-color: white;
 }
@@ -26,6 +25,219 @@ body{
 .left-side{
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
+    margin-left: 60px;
+    margin-top: 60px;
+    padding-right: 3%;
+    gap: 40px;
+}
+
+.upper{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.upper-h-text{
+    display: flex;
+    width: fit-content;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(54, 56, 77);
+}
+
+.upper-text{
+    display: flex;
+    width: fit-content;
+    font-size: 18px;
+    color: rgb(54, 56, 77);
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.mid-text{
+    display: flex;
+    width: fit-content;
+    font-size: 18px;
+    color: rgb(54, 56, 77);
+}
+
+.suc-ico{
+    display: flex;
+    width: 25px;
+}
+
+
+.lower{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.lower-text{
+    display: flex;
+    width: fit-content;
+    font-size: 16px;
+}
+
+.text-box{
+    display: flex;
+    width: 80%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.btn-pos{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 88%;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    padding: 0% 10%;
+    background-color: rgb(30, 30, 60);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.50s;
+}
+
+.btn:hover{
+    background-color: rgb(255, 89, 103);
+    box-shadow: 0px 8px 20px 3px rgba(255, 89, 103, 0.5);
+}
+
+.right-side{
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    display: flex;
+    width: 100%;
+}
+
+.image1{
+    display: none;
+    width: 100%;
+}
+
+
+
+
+
+
+
+@media (max-width:1100px) {
     
+.image{
+    display: flex;
+    width: 100%;
+}
+
+.left-side{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+}
+
+@media (max-width:900px) {
+    
+.image{
+    display: flex;
+    width: 100%;
+}
+
+.left-side{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+}
+
+@media (max-width:800px) {
+    
+.container{
+    margin: 0;
+}
+
+.container-style{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100vh;
+    width: 100%;
+    border-radius: 0;
+    padding: 0px;
+}
+
+.left-side{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.upper,.lower{
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.mid{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.mid-text{
+    text-align: start;
+}
+
+.text-box{
+    width: 120%;
+    margin-bottom: 10px;
+}
+
+.btn-pos{
+    width: 135%;
+}
+
+.btn{
+    width: 120%;
+    margin-bottom: 20px;
+}
+
+.image{
+    display: none;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 0px;
+}
+
+.image1{
+    display: flex;
+}
+
+
 }
