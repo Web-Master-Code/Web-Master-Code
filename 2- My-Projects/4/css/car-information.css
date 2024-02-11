@@ -1,12 +1,13 @@
 body{
     font-family: Noto Sans Vai;
+    margin: 0;
     background-color: rgb(230, 230, 230);
 }
 
 .container{
     display: flex;
     justify-content: center;
-    margin-top: 110px;
+    margin-top: 70px;
     transition: all 0.50s;
 }
 
@@ -186,8 +187,7 @@ body{
 .container{
     display: flex;
     justify-content: center;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin: 0;
     transition: all 0.50s;
 }
 
@@ -195,11 +195,9 @@ body{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    width: 120%;
-    margin-left: 10%;
-    margin-right: 10%;
-    height: 100%;
     border-radius: 10px;
+    margin: 0;
+    width: 100%;
     transition: all 0.50s;
 }
 
@@ -212,8 +210,6 @@ body{
     color: white;
     background-color: rgb(200, 120, 0);
     border-radius: 0;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
     transition: all 0.50s;
 }
 
@@ -244,8 +240,8 @@ body{
     background-color: rgb(0, 80, 60);
     color: white;
     border-radius: 0;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
     transition: all 0.50s;
 }
 
