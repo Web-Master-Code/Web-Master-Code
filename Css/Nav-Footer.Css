@@ -272,3 +272,11 @@ body::-webkit-scrollbar{
 }
 
 }
+
+.up-img{
+    display: flex;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 70px;
+}
