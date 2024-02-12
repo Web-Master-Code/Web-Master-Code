@@ -29,7 +29,6 @@
 }
 
 .box1,.box2,.box3{
-    display: flex;
     width: 300px;
     height: 300px;
     border-radius: 10px;
