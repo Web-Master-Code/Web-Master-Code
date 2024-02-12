@@ -1,0 +1,46 @@
+.text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    font-size: 30px;
+    color: #FFF;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container-style{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    width: 80%;
+}
+
+.text-back-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 100px;
+    cursor: pointer;
+    transition: all 0.50s;
+}
+
+.text-back-img:hover{
+    background-image: url('../images/backgroung.jpg');
+    background-size: contain;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
