@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    margin-bottom: 200px;
+}
+
+.container-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    gap: 100px;
+}
+
+
+.switch{
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+    padding: 0px 5px;
+    background-color: white;
+}
+
+.switch input{
+    transition: all 0.50s ease-in-out;
+}
+
+.switch input::before{
+    display: flex;
+    content: "";
+    margin-top: -13px;
+    margin-left: -3px;
+    appearance: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #5271ff;
+}
+
+.switch input:checked{
+    transform: translateX(60px);
+    animation: on-off 0.50s linear;
+}
