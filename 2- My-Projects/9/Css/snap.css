@@ -1,158 +1,481 @@
 body{
     margin: 0;
-    font-family: Roboto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.upper-container{
-    display: flex;
-    align-items: center;
-}
-
-.upper-container-style{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1530px;
-    height: 80px;
-    margin-left: 35px;
-    margin-right: 35px;
-    margin-top: 10px;
-}
-
-.upper-con-left-sec{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 550px;
-    flex-wrap: nowrap;
-}
-
-upper-con-left-sec-style{
+.nav-bar{
     display: flex;
 }
 
-.upper-container-text{
-    color: rgb(100, 100, 100);
-    font-weight: 500;
-    cursor: pointer;
-}
-
-.upper-container-text1{
-    color: rgb(100, 100, 100);
-    font-weight: 500;
-    cursor: pointer;
-}
-
-.upper-container-text2{
-    color: rgb(100, 100, 100);
-    font-weight: 500;
-    cursor: pointer;
-}
-
-.upper-container-text3{
-    color: rgb(100, 100, 100);
-    font-weight: 500;
-    cursor: pointer;
-}
-
-.upper-con-right-sec{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 180px;
-}
-
-.upper-container-butt{
-    width: 100px;
-    height: 40px;
-    border: 2px solid rgb(100, 100, 100);
-    border-radius: 15px;
-    background-color: white;
-    font-size: 15px;
-    text-shadow: 0.3px 0.4px 0.3px;
-    color: rgb(100, 100, 100);
-    transition: 0.50s all;
-    cursor: pointer;
-}
-
-.upper-container-butt:hover{
-    border: 2px solid black;
-    color: black;
-}
-
-
-/* Middle Container */
-
-
-.middle-container{
+.nav-bar-style{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    position: fixed;
+    background-color: white;
+    gap: 40px;
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid black;
 }
 
-.middle-container-style{
-    width: 1200px;
-    height: 640px;
+.navbar-left-side{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.logo{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.navbar-right-side{
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+    width: 90%;
+    margin-right: 2%;
 }
 
-.middle-container-left-sec{
+.navbar-logo-side{
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: start;
-    width: 700px;
-    height: 620px;
-    margin-left: 30px;
-    float: left;
-    width: 20%;
+    align-items: center;
+    gap: 30px;
 }
 
-.middle-container-text1{
-    font-size: 82px;
-    font-weight: bold;
-    width: 480px;
-}
-
-.middle-container-text2{
-    font-size: 20px;
-    color: rgb(100, 100, 100);
-    width: 420px;
-}
-
-.middle-container-butt{
-    width: 160px;
-    height: 55px;
-    border-radius: 18px;
+.navbar-text1,.navbar-text2,.navbar-text3{
     font-size: 18px;
-    border: none;
-    background-color: black;
-    color: white;
-    font-weight: bold;
-    transition: 0.50s all;
+    color: rgb(104, 104, 104);
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.navbar-text3:hover{
+    color: black;
+}
+
+.navbar-text1:hover, .navbar-text2:hover{
+    color: black;
+}
+
+#checkbox1,#checkbox2{
+    display: none;
+}
+
+.D-A,.U-A{
     cursor: pointer;
 }
 
-.middle-container-butt:hover{
+.U-A{
+    display: none;
+}
+
+#checkbox1:checked ~ .navbar-text1 > .pos > .D-A{
+    display: none;    
+}
+
+#checkbox1:checked ~ .navbar-text1 > .pos > .U-A{
+    display: inline-block;    
+}
+
+#checkbox1:checked ~ .features{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.features{
+    display: flex;
+    opacity: 0;
+    transform: translateX(-280px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    position: absolute;
+    top: 60px;
+    left: 135px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.50s;
+}
+
+.features-text{
+    color: rgb(104, 104, 104);
+    cursor: pointer;
+    transition: all 0.50s;
+}
+
+.features-text:hover{
+    color: black;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+#checkbox2:checked ~ .navbar-text2 > .pos > .D-A{
+    display: none;    
+}
+
+#checkbox2:checked ~ .navbar-text2 > .pos > .U-A{
+    display: inline-block;    
+}
+
+#checkbox2:checked ~ .company{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+
+.company{
+    display: flex;
+    opacity: 0;
+    transform: translateX(-430px);
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 310px;
+    gap: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.50s all;
+}
+
+.company-text{
+    color: rgb(104, 104, 104);
+    cursor: pointer;
+    transition: all 0.50s;
+}
+
+.company-text:hover{
+    color: black;
+}
+
+.navbar-far-side{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.login{
+    display: flex;
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+    cursor: pointer;
+    transition: all 0.50s;
+}
+
+.login:hover{
+    color: black;
+}
+
+.register{
+    display: flex;
+    border: 2px solid rgb(104, 104, 104);
+    padding: 10px 25px;
+    border-radius: 15px;
+    color: rgb(104, 104, 104);
+    cursor: pointer;
+    transition: all 0.50s;
+}
+
+.register:hover{
+    border-color: black;
+    color: black;
+}
+
+.pos1{
+    display: none;
+}
+
+#checkbox{
+    display: none;
+}
+
+
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container-style{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.left-side-text1{
+    font-size: 70px;
+    width: 70%;
+    font-weight: bold;
+}
+
+.left-side-text2{
+    font-size: 20px;
+    width: 60%;
+    color: rgb(104, 104, 104);
+    line-height: 26px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    width: 180px;
+    height: 55px;
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all .50s;
+}
+
+.btn:hover{
     background-color: white;
     color: black;
-    border: 1px solid black;
 }
 
-.middle-container-row-style{
+.brands{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 50px;
-    float: left;
-    width: 20%;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
 }
 
-.middle-container-image1{
-    width: 500px;
-    height: 580px;
-    object-fit: contain;
-    cursor: auto;
+.img{
+    width: 100px;
+    cursor: pointer;
+}
+
+.back-img{
+    width: 400px;
+}
+
+
+@media (max-width:1000px) {
+
+.container-style{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.left-side{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.left-side-text1{
+    font-size: 70px;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.left-side-text2{
+    font-size: 20px;
+    width: fit-content;
+    color: rgb(104, 104, 104);
+    line-height: 26px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    width: 200px;
+    height: 55px;
+    border: 2px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all .50s;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.brands{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.back-img{
+    width: 400px;
+}
+    
+}
+
+@media (max-width: 800px) {
+    
+.nav-bar-style{
+    justify-content: space-between;
+    gap: 0;
+}
+
+#checkbox{
+    display: none;
+}
+
+.pos1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    position: absolute;
+    cursor: pointer;
+    transition: all 0.20s;
+    margin-right: 3%;
+}
+
+.close{
+    position: relative;
+    left: -10px;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.20s;
+}
+
+#checkbox:checked ~ .pos1 > .menu{
+    opacity: 0;
+}
+
+#checkbox:checked ~ .pos1 > .close{
+    opacity: 1;
+}
+
+#checkbox:checked ~ .navbar-right-side{
+    transform: translateX(0);
+}
+
+.navbar-right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 300px;
+    border-left: 1px solid black;
+    background-color: white;
+    transform: translateX(300px);
+    transition: all 0.50s ease-in-out;
+    margin: 0;
+}
+
+.navbar-logo-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: fit-content;
+    height: auto;
+    margin-left: -30%;
+    margin-top: 25%;
+}
+
+.navbar-text1{
+    margin: 0;
+}
+
+.features{
+    display: none;
+    position: relative;
+    left: 20px;
+    top: -20px;
+    opacity: 1;
+    box-shadow: none;
+    transform: none;
+}
+
+#checkbox1:checked ~ .features{
+    display: flex;
+    transform: none;
+    margin: 0;
+}
+
+.company{
+    display: none;
+    position: relative;
+    left: 20px;
+    top: -20px;
+    opacity: 1;
+    box-shadow: none;
+}
+
+#checkbox2:checked ~ .company{
+    display: flex;
+    transform: none;
+    opacity: 1;
+    margin: 0;
+}
+
+.navbar-far-side{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    font-size: 18px;
+}
+
+
+
+
+}
+
+@media (max-width: 500px) {
+    
+.brands{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.back-img{
+    width: 300px;
+}
+
 }
