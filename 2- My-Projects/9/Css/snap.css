@@ -354,18 +354,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 3%;
 }
 
 .menu{
     position: absolute;
     cursor: pointer;
     transition: all 0.20s;
-    margin-right: 3%;
 }
 
 .close{
     position: relative;
-    left: -10px;
     opacity: 0;
     cursor: pointer;
     transition: all 0.20s;

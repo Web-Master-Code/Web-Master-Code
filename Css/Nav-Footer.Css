@@ -187,6 +187,13 @@ body::-webkit-scrollbar{
     cursor: pointer;
 }
 
+.up-img{
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    width: 60px;
+}
 
 
 
@@ -271,12 +278,4 @@ body::-webkit-scrollbar{
     border-top-left-radius: 15px;
 }
 
-}
-
-.up-img{
-    display: flex;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    width: 60px;
 }
