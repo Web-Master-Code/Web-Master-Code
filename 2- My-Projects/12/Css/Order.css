@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: Arial;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -8,11 +9,14 @@ body{
 .container{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .container-style{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
     flex-direction: column;
     width: 420px;
     height: 650px;
@@ -26,7 +30,6 @@ body{
 .image{
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
 }
 
 .image-style{
@@ -42,20 +45,17 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 25px;
 }
 
 .text-style1{
     font-size: 27px;
     font-weight: 800;
     color: rgb(20,60,120);
-    margin: 0;
-    margin-bottom: 10px;
 }
 
 .text-style2{
+    width: fit-content;
+    padding: 0% 5%;
     color: rgb(140, 140, 180);
     line-height: 24px;
 }
@@ -63,19 +63,20 @@ body{
 
 .Songs{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
+    width: 80%;
+    margin-bottom: 30px;
 }
 
 .song-icon{
-    margin-right: 20px;
+    margin-right: -30%;
 }
 
 .text-col{
     display: flex;
+    align-items: center;
     flex-direction: column;
-    margin-right: 100px;
     line-height: 24px;
 }
 
@@ -109,10 +110,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
 }
 
 .payment-button{
-    margin-bottom: 30px;
     border: none;
     width: 340px;
     height: 50px;
@@ -142,4 +144,45 @@ body{
 
 .payment-cancle:hover{
     color: rgb(20,60,120);
+}
+
+
+@media (max-width: 800px) {
+    
+.container{
+    margin: 0;
+}
+
+.container-style{
+    width: 100%;
+    height: 100vh;
+}
+
+.image{
+    width: 100%;
+}
+
+.image-style{
+    width: 100%;
+    border-radius: 0;
+    border-end-end-radius: 15px;
+    border-end-start-radius: 15px;
+}
+
+.Songs{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.song-icon{
+    margin: 0;
+}
+
+.payment-button{
+    width: 250px;
+}
+
 }
