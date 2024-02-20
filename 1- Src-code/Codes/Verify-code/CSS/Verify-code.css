@@ -101,7 +101,11 @@
     display: none;
 }
 
-#checkbox:checked ~ .input > .num-input{
+#checkbox:checked ~ .input{
+    display: none;
+}
+
+#checkbox:checked ~ .postion > .submit{
     display: none;
 }
 
