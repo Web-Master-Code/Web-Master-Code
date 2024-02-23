@@ -7,15 +7,15 @@ body{
 .main-container{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .main-container-style{
     display: flex;
-    justify-content: space-between;
-    width: 1260px;
-    height: 560px;
-    padding: 10px;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    gap: 40px;
 }
 
 .main-container-left-side{
@@ -411,4 +411,83 @@ body{
     font-weight: 50;
     font-weight: bold;
     width: 190px;
+}
+
+
+
+
+
+@media (max-width: 1300px) {
+    
+.main-container{
+    margin: 50px 0px;
+}
+
+.main-container-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.main-container-left-side,.main-container-right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.left-side-upper-containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.left-side-bottom-containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.left-side-left-upper-container, .left-side-right-upper-container,.left-side-left-bottom-container, .left-side-right-bottom-container,.main-container-right-side-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 5% 0%;
+}
+
+.profile, .profile2,.profile3,.profile4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+}
+
+.container-text,.container-text2,.container-text3,.container-text4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+}
+
+.container-text1, .container-text2,.container-text1-2, .container-text2-2,.container-text1-3, .container-text2-3,.container-text1-4, .container-text2-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
 }

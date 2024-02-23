@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: Arial;
     margin: 0;
 }
@@ -6,14 +7,14 @@ body{
 .upper-container{
     display: flex;
     justify-content: center;
-    margin-top: 120px;
+    margin-top: 60px;
 }
 
 .upper-container-style{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
+    width: 80%;
 }
 
 
@@ -21,21 +22,21 @@ body{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 20px;
 }
 
 .upper-container-left-side-text1{
     display: flex;
     font-size: 60px;
     font-weight: bold;
-    width: 500px;
-    margin-bottom: 20px;
+    width: 60%;
     color: rgb(100, 0, 100);
 }
 
 .upper-container-left-side-text2{
     display: flex;
     font-size: 18px;
-    width: 450px;
+    width: 60%;
     line-height: 24px;
     color: rgb(140, 40, 140);
 }
@@ -44,6 +45,8 @@ body{
 
 .upper-container-right-side{
     display: flex;
+    align-items: center;
+    gap: 5px;
     flex-direction: column;
 }
 
@@ -109,44 +112,29 @@ body{
 
 .bottom-container-style{
     display: flex;
-    width: 1200px;
-    justify-content: space-between;
+    width: 80%;
+    justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
-.bottom-container-left-div{
+.bottom-container-left-div,.bottom-container-mid-div,.bottom-container-right-div{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 380px;
-    height: 250px;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: auto;
     border-radius: 10px;
     background-color: rgb(100, 0, 100);
 }
 
 .bottom-container-mid-div{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 380px;
-    height: 250px;
-    border-radius: 10px;
-    background-color: rgb(100, 0, 100);
-    margin-bottom: -50px;
+    margin-top: 25px;
 }
 
 .bottom-container-right-div{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 380px;
-    height: 250px;
-    border-radius: 10px;
-    background-color: rgb(100, 0, 100);
-    margin-bottom: -100px;
+    margin-top: 50px;
 }
 
 
