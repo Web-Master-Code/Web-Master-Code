@@ -22,6 +22,7 @@
 
 .container-style{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -66,32 +67,32 @@
     border-radius: 10px;
 }
 
-#rotate{animation: rotate 3s infinite;}
+#rotate:hover{animation: rotate 3s infinite;}
 @keyframes rotate {
     0% {transform: rotate(0deg);}
     100% {transform: rotate(360deg);}
 }
 
-#scale{animation: scale 2s infinite;}
+#scale:hover{animation: scale 2s infinite;}
 @keyframes scale {
     0%, 100% {transform: scale(1);}
     50% {transform: scale(1.1);}
 }
 
-#opacity{animation: opacity 2s infinite;}
+#opacity:hover{animation: opacity 2s infinite;}
 @keyframes opacity {
     0%, 100% {opacity: 1;}
     50% {opacity: 0;}
 }
 
-#translateY{animation: translateY 2s infinite;}
+#translateY:hover{animation: translateY 2s infinite;}
 @keyframes translateY {
     0% {transform: translateY(0);}
     40% {transform: translateY(-50px)}
     100% {transform: translateY(0);}
 }
 
-#translateX{animation: translateX 2s infinite;}
+#translateX:hover{animation: translateX 2s infinite;}
 @keyframes translateX {
     0%, 100% {transform: translateX(0);}
     50% {transform: translateX(50px);}
