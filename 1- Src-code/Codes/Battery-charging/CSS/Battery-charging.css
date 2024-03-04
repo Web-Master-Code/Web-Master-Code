@@ -19,6 +19,7 @@
 
 .container-style{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 200px;
@@ -27,48 +28,34 @@
     border-radius: 10px;
 }
 
+.top-battery{
+    width: 20%;
+    height: 10px;
+    background-color: #323131;
+    border-start-start-radius: 5px;
+    border-start-end-radius: 5px;
+}
+
 .battery{
-    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 40%;
+    height: 130px;
+    border: 4px solid #323131;
 }
 
 .include{
-    position: absolute;
-    bottom: 314.2px;
-    width: 72px;
-    height: 5px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    background-color: red;
+    width: 100%;
     animation: charging 5s infinite linear;
 }
 
 @keyframes charging {
     
     0%{height: 1%; background-color: red;}
-    20%{height: 3%; background-color: orange;}
-    40%{height: 6%; background-color: yellowgreen;}
-    60%{height: 9%; background-color: limegreen;}
-    80%{height: 11.5%; background-color: lime;}
+    25%{height: 25%; background-color: red;}
+    50%{height: 50%; background-color: orange;}
+    70%{height: 75%; background-color: yellow}
+    90%{height: 100%; background-color: lime;}
     100%{height: 1%; background-color: red;} 
-}
-
-
-
-@media (max-width: 544px) {
-    
-.include{
-    position: absolute;
-    bottom: 278px;
-    width: 72px;
-    height: 5px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    background-color: red;
-    animation: charging 5s infinite linear;
-}
-
 }
