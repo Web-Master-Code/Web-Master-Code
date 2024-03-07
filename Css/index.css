@@ -11,7 +11,7 @@
     gap: 50px;
     padding: 2%;
     padding-bottom: 4%;
-    border: 1px solid #5271ff;
+    border: 1px solid #99ACFF;
     width: 80%;
     height: auto;
     transition: all 0.50s;
@@ -233,11 +233,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
 }
 
 .container3-lower-img{
     display: flex;
+    position: none;
     width: 400px;
     height: 200px;
     object-fit: cover;
@@ -247,36 +248,22 @@
     transition: 0.50s all;
 }
 
-.container3-lower-img:hover{
-    filter: blur(2px);
-}
-
-.container3-lower-img:hover ~ a > .container3-text{
-    opacity: 1;
-    box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.3);
-}
-
 .container3-text{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    opacity: 0;
     font-size: 20px;
     color: white;
-    background-color: #5271ff;
     border-radius: 50px;
     width: 250px;
     height: 40px;
-    margin-top: -125px;
     transition: 0.50s all;
 }
 
 .container3-text:hover{
-    opacity: 1;
     color: #5271ff;
     background-color: white;
-    box-shadow: 0px 0px 50px 50px rgba(0, 0, 0, 0.3);
+    padding: 4px 25px;
 }
 
 .container3-btn{
@@ -290,32 +277,33 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
-    color: white;
-    height: 40px;
-    border: none;
-    border-radius: 20px;
-    padding: 5px 25px;
-    background-color: #5271ff;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    height: 50px;
+    border: 2px solid #FFF;
+    border-radius: 50px;
+    padding: 5px 35px;
+    background-color: #FFF;
     cursor: pointer;
     transition: all 0.50s;
 }
 
 .container3-btn-style:hover{
-    color: #5271ff;
-    background-color: white;
+    color: #FFF;
+    background-color: #333;
 }
 
 .container3-add-text{
     display: flex;
     justify-content: center;
     width: 80%;
+    margin-top: 20px;
 }
 
 .container3-add-text1{
     display: flex;
     width: fit-content;
-    margin-top: 30px;
     font-size: 20px;
     color: white;
     text-align: center;
@@ -424,19 +412,10 @@
 
 }
 
-
-
-@media (max-width:480px) {
-
-.container3-lower-img{
-    display: flex;
-    width: 350px;
-    border-radius: 15px;
-    transition: 0.50s all;
-}
-
-.container3-text{
-    margin-top: -130px;
-}
+@media (max-width: 450px) {
     
+.container3-lower-img{
+    width: 250px;
+}
+
 }

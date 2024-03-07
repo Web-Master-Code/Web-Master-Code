@@ -12,7 +12,7 @@
     justify-content: center;
     width: 80%;
     height: auto;
-    gap: 10%;
+    gap: 5%;
 }
 
 
@@ -27,8 +27,8 @@
     text-align: center;
     margin-bottom: 50px;
     width: 300px;
-    height: 210px;
-    border-radius: 15px;
+    height: 300px;
+    border-radius: 10px;
     background-color: white;
     box-shadow: 2px 3px 5px 4px rgba(0, 0, 0, 0.1);
 }
@@ -44,9 +44,9 @@
 .img{
     display: flex;
     width: 300px;
-    height: 120px;
+    height: 200px;
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 10px;
     cursor: pointer;
     transition: all 0.50s;
 }
@@ -57,14 +57,19 @@
 
 .text{
     display: flex;
-    margin-top: 28px;
-    font-size: 20px;
-    color: #323131;
+    margin-top: 110px;
+    font-size: 18px;
+    color: #859BFF;
+    border: 2px solid #859BFF;
+    padding: 7px 25px;
+    border-radius: 50px;
     cursor: pointer;
+    transition: all 0.50s;
 }
 
 .text:hover{
-    text-decoration: underline;
+    background-color: #859BFF;
+    color: #FFF;
 }
 
 .container2{

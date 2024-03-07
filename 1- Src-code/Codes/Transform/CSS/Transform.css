@@ -35,6 +35,10 @@
     color: white;
 }
 
+.background > img{
+    border: 2px solid white;
+}
+
 .scale-img, .scaleX-img, .rotate-img, .translateX-img{
     width: 40%;
     transition: 0.50s all;

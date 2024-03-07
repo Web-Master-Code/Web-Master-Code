@@ -22,40 +22,36 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 270px;
-    height: auto;
+    width: 80%;
+    height: 100px;
     gap: 5px;
 }
 
-.text2{
+.text-pos{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    width: fit-content;
+}
+
+.text2{
     font-size: 30px;
-    text-align: center;
-    margin-left: 2%;
-    margin-right: 2%;
     color: white;
     font-weight: bold;
     cursor: pointer;
-    transition: all 1s;
+    transition: all 0.50s;
 }
 
 .text2:hover ~ .underline{
-    opacity: 1;
-    animation-name: underline;
-    animation-duration: 0.5s;
-}
-
-@keyframes underline {
-    0% {width: 0px;}
-    100% {width: 270px;}
-    0% {width: 0px;}
+    width: 100%;
 }
 
 .underline{
-    width: 270px;
-    height: 5px;
-    border-radius: 20px;
-    background-color: #5271ff;
-    opacity: 0;
+    width: 0px;
+    height: 3px;
+    border-radius: 50px;
+    background-color: #859BFF;
+    opacity: 1;
+    transition: all 0.5s;
 }
