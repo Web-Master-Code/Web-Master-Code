@@ -1,0 +1,123 @@
+.main-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0% 2%;
+    color: white;
+    font-size: 30px;
+    margin-top: 150px;   
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.container-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #FFF;
+    gap: 20px;
+    transition: all 0.5s;
+}
+
+#checkbox:checked ~ .container-style{
+    background-color: #000;
+}
+
+#checkbox{
+    display: none;
+}
+
+.light1,.light2{
+    width: 50px;
+    transition: all 0.5s;
+}
+
+.light2{
+    display: none;
+}
+
+.dark1,.dark2{
+    width: 50px;
+    transition: all 0.5s;
+}
+
+.dark2{
+    display: none;
+}
+
+#checkbox:checked ~ .container-style > .light1{
+    display: none;
+}
+
+#checkbox:checked ~ .container-style > .light2{
+    display: flex;
+}
+
+#checkbox:checked ~ .container-style > .dark1{
+    display: none;
+}
+
+#checkbox:checked ~ .container-style > .dark2{
+    display: flex;
+}
+
+#checkbox:checked ~ .container-style > .switch > .slider{
+    background-color: #000;
+}
+
+.switch{
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+    padding: 0px 5px;
+    background-color: white;
+    box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.slider{
+    display: flex;
+    appearance: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #A8A4E0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#checkbox:checked ~ .container-style > .switch > .slider{
+    transform: translateX(60px);
+}
+
+
+
+
+@media (max-width: 800px) {
+    
+.container-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: #FFF;
+    gap: 20px;
+    transition: all 0.5s;
+}
+
+}

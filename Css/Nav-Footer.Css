@@ -169,14 +169,28 @@ html,body{
     cursor: pointer;
 }
 
-.up-img{
+.up-to-nav{
     display: flex;
+    align-items: center;
+    justify-content: center;
     position: fixed;
     bottom: 20px;
     right: 30px;
-    width: 60px;
+    width: 55px;
+    height: 55px;
+    font-size: 16px;
+    border-radius: 50%;
+    background-color: #A8A4E0;
+    border: 2px solid #FFF;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
 }
 
+.up-to-nav:hover{
+    background-color: #FFF;
+    color: #A8A4E0;
+}
 
 
 
