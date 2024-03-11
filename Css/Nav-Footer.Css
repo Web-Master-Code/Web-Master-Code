@@ -251,7 +251,7 @@ html,body{
     border-bottom: 2px solid #FFF;
     background-color: #A8A4E0;
     transform: translateX(-100%);
-    transition: all 0.40s ease-in;
+    transition: all 0.40s linear;
 }
 
 .footer-style{
