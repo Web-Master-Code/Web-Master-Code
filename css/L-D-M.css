@@ -1,0 +1,161 @@
+#LD-checker:checked ~ .navbar > .navbar-style > .nav-right-side > .light-dark > .LD-container > .LD-ball{
+    transform: translateX(15px);
+    background-color: white;
+}
+
+#LD-checker:checked ~ .navbar > .navbar-style > .nav-right-side > .light-dark > .LD-container{
+    background-color: #333;
+    border: 2px solid #FFF;
+}
+
+#LD-checker:checked ~ .navbar > .navbar-style > .nav-right-side > .light-dark > .LD-container > .Light-imgW{
+    display: flex;
+}
+
+#LD-checker:checked ~ .navbar > .navbar-style > .nav-right-side > .light-dark > .LD-container > .Light-img{
+    display: none;
+}
+
+#LD-checker:checked ~ .navbar > .navbar-style > .nav-right-side > .light-dark > .LD-container > .Dark-imgW{
+    display: flex;
+}
+
+#LD-checker:checked ~ .navbar > .navbar-style > .nav-right-side > .light-dark > .LD-container > .Dark-img{
+    display: none;
+}
+
+
+#LD-checker:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .light-dark > .LD-container > .LD-ball{
+    transform: translateX(15px);
+    background-color: white;
+}
+
+#LD-checker:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .light-dark > .LD-container{
+    background-color: #333;
+    border: 2px solid #FFF;
+}
+
+#LD-checker:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .light-dark > .LD-container > .Light-imgW{
+    display: flex;
+}
+
+#LD-checker:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .light-dark > .LD-container > .Light-img{
+    display: none;
+}
+
+#LD-checker:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .light-dark > .LD-container > .Dark-imgW{
+    display: flex;
+}
+
+#LD-checker:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .light-dark > .LD-container > .Dark-img{
+    display: none;
+}
+
+
+#LD-checker:checked ~ .navbar > .navbar-style{
+    border-bottom: 2px solid #FFF;
+}
+
+#LD-checker:checked ~ .navbar > .navbar-style > .nav-logo{
+    color: #333;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style{
+    background-color: #333;
+}
+
+#LD-checker:checked ~ .navbar > .navbar-style > .sandwich > .line1{
+    background-color: #333;
+}
+
+#LD-checker:checked ~ .navbar > .navbar-style > .sandwich > .line2{
+    background-color: #333;
+}
+
+#LD-checker:checked ~ .navbar > .navbar-style > .sandwich > .line3{
+    background-color: #333;
+}
+
+#LD-checker:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items{
+    border-left: 2px solid #FFF;
+}
+
+/* for pc */
+
+#page1:checked ~ .navbar > .navbar-style > .nav-right-side > .text-pos1 > .nav-text{
+    color: #333;
+}
+
+#page1:checked ~ .navbar > .navbar-style > .nav-right-side > .text-pos1 > .line{
+    background-color: #333;
+    width: 100%;
+}
+
+#page2:checked ~ .navbar > .navbar-style > .nav-right-side > .text-pos2 > .nav-text{
+    color: #333;
+}
+
+#page2:checked ~ .navbar > .navbar-style > .nav-right-side > .text-pos2 > .line{
+    background-color: #333;
+    width: 100%;
+}
+
+#page3:checked ~ .navbar > .navbar-style > .nav-right-side > .text-pos3 > .nav-text{
+    color: #333;
+}
+
+#page3:checked ~ .navbar > .navbar-style > .nav-right-side > .text-pos3 > .line{
+    background-color: #333;
+    width: 100%;
+}
+
+/* for mobile */
+
+#page1:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .text-pos1 > .nav-text{
+    color: #333;
+}
+
+#page1:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .text-pos1 > .line{
+    background-color: #333;
+    width: 100%;
+}
+
+#page2:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .text-pos2 > .nav-text{
+    color: #333;
+}
+
+#page2:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .text-pos2 > .line{
+    background-color: #333;
+    width: 100%;
+}
+
+#page3:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .text-pos3 > .nav-text{
+    color: #333;
+}
+
+#page3:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .text-pos3 > .line{
+    background-color: #333;
+    width: 100%;
+}
+
+
+
+/* Main-con */
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con1-main > .con1-sec1{
+    background-color: #333;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con1-main > .con1-sec2{
+    background-color: #333;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con1-main > .con1-sec3{
+    background-color: #333;
+}
+
+/* Footer */
+
+#LD-checker:checked ~ .footer > .footer-style{
+    border-top: 2px solid #FFF;
+}
