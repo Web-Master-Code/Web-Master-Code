@@ -1,174 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Web Master Code</title>
-        <link rel="stylesheet" href="Css/index.css">
-        <link rel="stylesheet" href="Css/Nav-Footer.Css">
-        <link rel="shortcut icon" href="images/profile picture.png">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Sansita:wght@400;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web.__.code</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/nav-footer.css">
+    <link rel="stylesheet" href="css/L-D-M.css">
+    <link rel="icon" href="images/1.png">
+    <link rel="shortcut icon" href="images/profile picture.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita:wght@400;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <body> 
+</head>
+<body>
 
-        <header class="header">
+    <!--Radio-->
+    <input type="radio" name="page" id="page1" checked>
+    <input type="radio" name="page" id="page2">
+    <input type="radio" name="page" id="page3">
+    <!--checkboxs-->
+    <input type="checkbox" id="LD-checker">
+    <input type="checkbox" id="nav-checker">
+    
+    <nav class="navbar">
 
-            <input type="checkbox" id="check">
+        <nav class="navbar-style">
 
-            <nav class="nav-style" id="up-to-nav">
+            <div class="nav-logo">Web.__.Code</div>
 
-                <div class="nav-left-side">
-                    <span class="text-logo">Web &nbsp;&nbsp;Code</span>
-                </div>
+            <div class="nav-right-side">
 
-                <div class="nav-right-side">
-                    <span class="nav-text1">Main</span>
-                    <a href="2- My-Projects/My-Projects.html" style="text-decoration: none; color: white;"><span class="nav-text">My Projects</span></a>
-                    <a href="1- Src-code/src-code.html" style="text-decoration: none; color: white;"><span class="nav-text">Source code</span></a>
-                    <a href="#There" style="text-decoration: none; color: white;"><span class="nav-text">Contact Us</span></a>
-                </div>
-
-                <label for="check" class="pos">
-                    <img src="images/menu-svgrepo-com.svg" class="menu">
-                    <img src="images/cancel-close-svgrepo-com.svg" class="close">
+                <label for="page1" class="text-pos1">
+                    <div class="nav-text">Main</div>
+                    <div class="line"></div>                    
                 </label>
-                
-            </nav>
+                <label for="page2" class="text-pos2">
+                    <div class="nav-text">My projects</div>
+                    <div class="line"></div>
+                </label>
+                <label for="page3" class="text-pos3">
+                    <div class="nav-text">Courses</div>
+                    <div class="line"></div>
+                </label>
+                <label for="LD-checker" class="light-dark">
+                    <div class="LD-container">
+                        <img src="images/light-mode-C.svg" class="Light-img">
+                        <img src="images/light-mode-W.svg" class="Light-imgW">
+                        <div class="LD-ball"></div>
+                        <img src="images/night-mode-C.svg" class="Dark-img">
+                        <img src="images/night-mode-W.svg" class="Dark-imgW">
+                    </div>
+                </label>
+
+            </div>
+
+            <label for="nav-checker" class="sandwich">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </label>
+
+            <nav class="nav-mobile-style">
             
-        </header>
+                <label for="nav-checker" class="close-nav"></label>
 
-        <div class="container">
+                <div class="nav-items">
 
-            <div class="container-style">
+                    <label for="page1" class="text-pos1">
+                        <div class="nav-text">Main</div>
+                        <div class="line"></div>                    
+                    </label>
+                    <label for="page2" class="text-pos2">
+                        <div class="nav-text">My projects</div>
+                        <div class="line"></div>
+                    </label>
+                    <label for="page3" class="text-pos3">
+                        <div class="nav-text">Courses</div>
+                        <div class="line"></div>
+                    </label>
+                    <label for="LD-checker" class="light-dark">
+                        <div class="LD-container">
+                            <img src="images/light-mode-C.svg" class="Light-img">
+                            <img src="images/light-mode-W.svg" class="Light-imgW">
+                            <div class="LD-ball"></div>
+                            <img src="images/night-mode-C.svg" class="Dark-img">
+                            <img src="images/night-mode-W.svg" class="Dark-imgW">
+                        </div>
+                    </label>
 
-                <div class="container-left-side">
-                    <h1 class="left-side-text1">I am Web Master Code</h1>
-                    <span class="left-side-text2">a professional web developer with experience in developing websites and microservices. I have experience in a variety of technologies, including HTML, CSS, and JavaScript.</span>
-                    <span class="left-side-text3">@Web Master Code</span>
-                    <div class="left-side-icons">
-                        <a href="https://www.instagram.com/web.__.code/" target="_blank" style="text-decoration: none;"><img src="images/instagram.svg" class="icons1"></a>
-                        <a href="https://www.facebook.com/profile.php?id=61555823010144" target="_blank" style="text-decoration: none;"><img src="images/facebook.svg" class="icons1"></a>
-                        <a href="https://github.com/Web-Master-Code" target="_blank" style="text-decoration: none;"><img src="images/github.svg" class="icons1"></a>
-                    </div>
                 </div>
+    
+            </nav>
 
-                <div class="container-right-side">
+        </nav>
 
-                    <span class="container-right-side-text">Web</span>
-                    <img src="images/code-2-white.svg" class="container-logo">
-                    <span class="container-right-side-text">Code</span>
+    </nav>
 
-                </div>
+    <main class="main-con">
+
+        <div class="main-con-style">
+
+            <div class="con1-main">
+
+                <div class="con1-sec1"></div>
+                <div class="con1-sec2"></div>
+                <div class="con1-sec3"></div>
 
             </div>
 
-        </div>
-        
-        <div class="container1">
+            <div class="con2-myProjects">
 
-            <div class="container1-style">
 
-                <h1 class="container1-text1">Here are some of my key skills and experience:</h1>
-                <div class="container1-display">
-                    <img src="images/Second-Project.png" class="container1-img">
-                    <span class="container1-text2">Extensive experience in developing websites using HTML, CSS, and JavaScript Ability to design and develop efficient and secure websites Ability to work independently and as part of a team Ability to communicate effectively with clients</span>
-                </div>
 
             </div>
 
-        </div>
+            <div class="con3-courses">
+                
 
-        <div class="container2">
-
-            <div class="container2-style">
-
-                <div class="container2-left-side">
-
-                    <h1 class="container2-text1">My Interests:</h1>
-                    <span class="container2-text2">In addition to my work as a web developer, I am also interested in learning new technologies and sharing my knowledge with others. I write a blog about web development, and I have a GitHub account where I share tutorials.</span>
-
-                </div>
-
-                <div class="container2-right-side">
-
-                    <img src="images/my-instagram-page.png" class="container2-lap-img">
-
-                </div>
 
             </div>
 
         </div>
 
-        <div class="container3">
+    </main>
 
-            <div class="container3-style">
+    <footer class="footer">
 
-                <div class="container3-upper">
-                    <span>My Projcts:</span>
-                    <span>Here are some of the projects I have worked on:</span>
-                </div>
+        <footer class="footer-style">
 
-                <div class="container3-lower">
-
-                    <div class="lower-containers">
-                        <img src="images/First-Project.png" class="container3-lower-img">
-                        <a href="2- My-Projects/1/First-Project.html" style="text-decoration: none;"><span class="container3-text">See more About it</span></a>
-                    </div>
-
-                    <div class="lower-containers">
-                        <img src="images/9.jpg" class="container3-lower-img">
-                        <a href="2- My-Projects/9/snap.html" style="text-decoration: none;"><span class="container3-text">See more About it</span></a>
-                    </div>
-
-                    <div class="lower-containers">
-                        <img src="images/Third-Project.png" class="container3-lower-img">
-                        <a href="2- My-Projects/22/Huddle-full-page.html" style="text-decoration: none;"><span class="container3-text">See more About it</span></a>
-                    </div>
-                    
-                </div>
-
-                <div class="container3-btn">
-                    <a href="2- My-Projects/My-Projects.html" style="text-decoration: none;color: white;"><button class="container3-btn-style">For more of my work</button></a>
-                </div>
-
-                <div class="container3-add-text">
-                    <span class="container3-add-text1">If you are looking for a professional web developer who can help you create a website, web application, or microservice, please do not hesitate to contact me.</span>
-                </div>
-
-            </div>
-
-        </div>
-
-        <footer class="footer">
-
-            <div class="footer-style" id="There">
-
-                <div class="footer-left-side">
-                    <span class="footer-text-logo">Web</span>
-                    <img src="images/code-2-white.svg" class="footer-logo">
-                    <span class="footer-text-logo">Code</span>
-                </div>
-
-                <div class="footer-mid-side">
-                    <h1 class="mid-text1">Contact Us:</h1>
-                    <span class="mid-text2">P.N: +963939715367</span>
-                    <span class="mid-text2">Web.Master.Code.WMC@gmail.com</span>
-                    <div class="left-side-icons">
-                        <a href="https://www.instagram.com/web.__.code/" target="_blank" style="text-decoration: none;"><img src="images/instagram.svg" class="icons1"></a>
-                        <a href="https://www.facebook.com/profile.php?id=61555823010144" target="_blank" style="text-decoration: none;"><img src="images/facebook.svg" class="icons1"></a>
-                        <a href="https://github.com/Web-Master-Code" target="_blank" style="text-decoration: none;"><img src="images/github.svg" class="icons1"></a>
-                    </div>
-                </div>
-
-            </div>
+            
 
         </footer>
-        
-        <a href="#up-to-nav" class="up-to-nav">UP!</a>
 
+    </footer>
 
-    </body>
-
+</body>
 </html>
