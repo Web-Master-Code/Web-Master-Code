@@ -9,6 +9,8 @@ a{
     font-weight: bold;
 }
 
+/* navbar */
+
 .navbar{
     display: flex;
     justify-content: center;
@@ -76,6 +78,7 @@ a{
     transition: all .5s;
 }
 
+/* light Dark mode style btn */
 
 #LD-checker{
     display: none;
@@ -133,7 +136,7 @@ a{
     display: none;
 }
 
-
+/* footer */
 
 .footer{
     display: flex;
@@ -142,16 +145,111 @@ a{
 
 .footer-style{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     position: absolute;
     top: 280vh;
     width: 90%;
     padding: 0% 5%;
-    height: 90vh;
+    height: 60vh;
     background-color: #FFDE59;
     border-top: 2px solid #333;
-    transition: all .5s;
     z-index: 96;
+    transition: all .5s;
+}
+
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #FFF;
+    transition: all .5s;
+}
+
+.footer-logo-text{
+    font-size: 40px;
+    text-align: center;
+    width: fit-content;
+    color: #FFF;
+    font-weight: bold;
+    font-family: Sansita;
+    transition: all .5s;
+}
+
+.footer-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact-head-text{
+    font-size: 40px;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    width: fit-content;
+    transition: all .5s;
+}
+
+.contact-ways{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 20px;
+    color: #FFF;
+    transition: all .5s;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.insta,.face,.github{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.insta-w,.insta-c,.face-w,.face-c,.github-w,.github-c{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.github-w,.github-c{
+    width: 25;
+    height: 25;
+}
+
+.face-w,.face-c{
+    width: 50px;
+    height: 50px;
+}
+
+.insta-w,.face-w,.github-w{
+    z-index: 59;
+}
+
+.insta-c,.face-c,.github-c{
+    z-index: 58;
+    opacity: 0;
 }
 
 
@@ -172,8 +270,7 @@ a{
 
 
 
-
-
+/* mobile design */
 
 @media (max-width:800px) {
  
@@ -276,6 +373,11 @@ a{
     width: 50%;
     height: 100vh;
     z-index: 98;
+}
+
+.footer-style{
+    flex-direction: column;
+    height: 90vh;
 }
 
 

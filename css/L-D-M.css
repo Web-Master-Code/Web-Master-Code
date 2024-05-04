@@ -1,3 +1,5 @@
+/* light dark mode btn pc display */
+
 #LD-checker:checked ~ .navbar > .navbar-style > .nav-right-side > .light-dark > .LD-container > .LD-ball{
     transform: translateX(15px);
     background-color: white;
@@ -24,6 +26,7 @@
     display: none;
 }
 
+/* light dark mode btn mobile display */
 
 #LD-checker:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .light-dark > .LD-container > .LD-ball{
     transform: translateX(15px);
@@ -51,6 +54,7 @@
     display: none;
 }
 
+/* navbar pc display */
 
 #LD-checker:checked ~ .navbar > .navbar-style{
     border-bottom: 2px solid #FFF;
@@ -58,10 +62,6 @@
 
 #LD-checker:checked ~ .navbar > .navbar-style > .nav-logo{
     color: #333;
-}
-
-#LD-checker:checked ~ .main-con > .main-con-style{
-    background-color: #333;
 }
 
 #LD-checker:checked ~ .navbar > .navbar-style > .sandwich > .line1{
@@ -76,10 +76,13 @@
     background-color: #333;
 }
 
+/* navbar mobile display */
+
 #LD-checker:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items{
     border-left: 2px solid #FFF;
 }
 
+/* pages */
 /* for pc */
 
 #page1:checked ~ .navbar > .navbar-style > .nav-right-side > .text-pos1 > .nav-text{
@@ -140,7 +143,7 @@
 
 
 
-/* Main-con */
+/* Main container */
 
 #LD-checker:checked ~ .main-con > .main-con-style > .con1-main > .con1-sec1{
     background-color: #333;
@@ -154,8 +157,112 @@
     background-color: #333;
 }
 
+/* Main - page 1 - sec 1 */
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con1-main > .con1-sec1 > .sec1-inf{
+    border: 2px solid #FFF;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con1-main > .con1-sec1 > .sec1-inf > .sec1-logo{
+    border: 2px solid #FFF;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con1-main > .con1-sec1 > .sec1-inf > .sec1-head-text{
+    color: #FFF;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con1-main > .con1-sec1 > .sec1-inf > .sec1-main-text{
+    color: #FFF;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con1-main > .con1-sec1 > .sec1-inf > .sec1-main-text2{
+    color: #FFF;
+}
+
+/* Main - page 1 - sec 2 */
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con1-main > .con1-sec2 > .sec2-inf > .sec2-img{
+    border: 2px solid #FFF;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con1-main > .con1-sec2 > .sec2-inf > .sec2-head-text{
+    color: #FFF;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con1-main > .con1-sec2 > .sec2-inf > .sec2-main-text{
+    color: #FFF;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con1-main > .con1-sec2 > .sec2-inf > .sec2-main-text2{
+    color: #FFF;
+}
+
+/* Main - page 1 - sec 3 */
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con1-main > .con1-sec3 > .sec3-inf > .sec3-head-text{
+    color: #FFF;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con1-main > .con1-sec3 > .sec3-inf > .sec3-projects-con > .project > .project-img{
+    border: 2px solid white;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con1-main > .con1-sec3 > .sec3-inf > .sec3-btn{
+    border: 2px solid #FFF;
+    background-color: #FFF;
+    color: #333;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con1-main > .con1-sec3 > .sec3-inf > .sec3-btn:hover{
+    background-color: #333;
+    color: #FFF;
+}
+
 /* Footer */
 
 #LD-checker:checked ~ .footer > .footer-style{
     border-top: 2px solid #FFF;
+}
+
+#LD-checker:checked ~ .footer > .footer-style > .footer-logo > .footer-img{
+    border: none;
+}
+
+#LD-checker:checked ~ .footer > .footer-style > .footer-logo > .footer-logo-text{
+    color: #333;
+}
+
+#LD-checker:checked ~ .footer > .footer-style > .footer-contact > .contact-head-text{
+    color: #333;
+}
+
+#LD-checker:checked ~ .footer > .footer-style > .footer-contact > .contact-ways{
+    color: #333;
+}
+
+#LD-checker:checked ~ .footer > .footer-style > .footer-contact > .contact-ways > .social-media > .insta > .insta-w{
+    opacity: 0;
+}
+
+#LD-checker:checked ~ .footer > .footer-style > .footer-contact > .contact-ways > .social-media > .insta > .insta-c{
+    opacity: 1;
+    z-index: 60;
+}
+
+#LD-checker:checked ~ .footer > .footer-style > .footer-contact > .contact-ways > .social-media > .face > .face-w{
+    opacity: 0;
+}
+
+#LD-checker:checked ~ .footer > .footer-style > .footer-contact > .contact-ways > .social-media > .face > .face-c{
+    opacity: 1;
+    z-index: 60;
+}
+
+#LD-checker:checked ~ .footer > .footer-style > .footer-contact > .contact-ways > .social-media > .github > .github-w{
+    opacity: 0;
+}
+
+#LD-checker:checked ~ .footer > .footer-style > .footer-contact > .contact-ways > .social-media > .github > .github-c{
+    opacity: 1;
+    z-index: 60;
 }
