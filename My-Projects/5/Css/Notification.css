@@ -1,0 +1,545 @@
+body{
+    margin: 0;
+    font-family: plus Jakarta sans;
+    background-color: rgb(220, 220, 220);
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: 0.50s all;
+}
+
+.style-container{
+    width: 50%;
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    transition: 0.50s all;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    transition: 0.50s all;
+}
+
+.text1{
+    font-size: 22px;
+    font-weight: bold;
+    transition: 0.50s all;
+}
+
+.count{
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(50, 50, 120);
+    color: white;
+    margin-left: 7px;
+    transition: 0.50s all;
+}
+
+.text2{
+    color: gray;
+    cursor: pointer;
+    transition: 0.50s all;
+}
+
+.text2:hover{
+    color: rgb(30, 60, 160);
+}
+
+
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    transition: 0.50s all;
+}
+
+.not1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 80%;
+    transition: 0.50s all;
+}
+
+.style-not1{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 7px;
+    width: 100%;
+    height: auto;
+    transition: 0.50s all;
+    background-color: rgb(30, 60, 120,0.06);
+}
+
+.image1{
+    width: 45px;
+    margin-right: 15px;
+    transition: 0.50s all;
+}
+
+.div-text-style1{
+    display: flex;
+    flex-direction: column;
+    transition: 0.50s all;
+}
+
+.text-style1{
+    width: fit-content;
+    font-size: 14px;
+    margin-bottom: 3px;
+    transition: 0.50s all;
+}
+
+.name1{
+    font-weight: bold;
+}
+
+.cont1{
+    color: rgb(120, 120, 120);
+}
+
+.object1{
+    color: rgb(120, 120, 120);
+    font-weight: bold;
+    margin-right: 2px;
+    transition: 0.50s all;
+}
+
+.object1:hover{
+    color: rgb(30, 60, 160);
+    cursor: pointer;
+}
+
+.red-ball{
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background-color: rgb(255, 129, 129);
+    border-radius: 50%;
+    transition: 0.50s all;
+}
+
+.time1{
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+}
+
+
+/* 2 */
+
+
+.not2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 80%;
+    transition: 0.50s all;
+}
+
+.style-not2{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    border-radius: 7px;
+    transition: 0.50s all;
+    background-color: rgb(30, 60, 120,0.06);
+}
+
+.image2{
+    width: 45px;
+    margin-right: 15px;
+    transition: 0.50s all;
+}
+
+.div-text-style2{
+    display: flex;
+    flex-direction: column;
+    transition: 0.50s all;
+}
+
+.text-style2{
+    width: fit-content;
+    font-size: 14px;
+    margin-bottom: 3px;
+    transition: 0.50s all;
+}
+
+.name2{
+    font-weight: bold;
+}
+
+.cont2{
+    color: rgb(120, 120, 120);
+}
+
+.object2{
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+    margin-right: 2px;
+}
+
+.time2{
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+}
+
+
+/* 3 */
+
+
+.not3{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 20px;
+    transition: 0.50s all;
+}
+
+.style-not3{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    border-radius: 7px;
+    transition: 0.50s all;
+    background-color: rgb(30, 60, 120,0.06);
+}
+
+.image3{
+    width: 45px;
+    margin-right: 15px;
+    transition: 0.50s all;
+}
+
+.div-text-style3{
+    display: flex;
+    flex-direction: column;
+    transition: 0.50s all;
+}
+
+.text-style3{
+    width: fit-content;
+    font-size: 14px;
+    margin-bottom: 3px;
+    transition: 0.50s all;
+}
+
+.name3{
+    font-weight: bold;
+}
+
+.cont3{
+    color: rgb(120, 120, 120);
+}
+
+.object3{
+    color: rgb(120, 120, 120);
+    font-weight: bolder;
+    font-size: 15px;
+    margin-right: 2px;
+    transition: 0.50s all;
+}
+
+.object3:hover{
+    color: rgb(30, 60, 160);
+    cursor: pointer;
+}
+
+.time3{
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+}
+
+
+/* 4 */
+
+
+.not4{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 10px;
+    transition: 0.50s all;
+}
+
+.style-not4{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    transition: 0.50s all;
+}
+
+.image4{
+    width: 45px;
+    margin-right: 15px;
+    transition: 0.50s all;
+}
+
+.div-text-style4{
+    display: flex;
+    flex-direction: column;
+    transition: 0.50s all;
+}
+
+.text-style4{
+    width: fit-content;
+    font-size: 14px;
+    margin-bottom: 3px;
+    transition: 0.50s all;
+}
+
+.name4{
+    font-weight: bold;
+    transition: 0.50s all;
+}
+
+.cont4{
+    color: rgb(120, 120, 120);
+    transition: 0.50s all;
+}
+
+.time4{
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+    transition: 0.50s all;
+}
+
+
+/* Letter */
+
+.letter-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    transition: 0.50s all;
+}
+
+.letter-style{
+    border: 1px solid rgb(200, 200, 200);
+    padding: 15px;
+    margin-top: -10px;
+    width: 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.50s all;
+}
+
+.letter-style:hover{
+    background-color: rgb(10, 80, 150,0.2);
+    border: none;
+}
+
+.letter-text-style{
+    color: rgb(120, 120, 120);
+    font-size: 14px;
+    transition: 0.50s all;
+}
+
+
+/* 5 */
+
+
+.not5{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 30px;
+    transition: 0.50s all;
+}
+
+.style-not5{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    transition: 0.50s all;
+}
+
+.image5{
+    width: 45px;
+    margin-right: 15px;
+    transition: 0.50s all;
+}
+
+.div-text-style5{
+    display: flex;
+    flex-direction: column;
+    transition: 0.50s all;
+}
+
+.text-style5{
+    width: fit-content;
+    font-size: 14px;
+    margin-bottom: 3px;
+    transition: 0.50s all;
+}
+
+.name5{
+    font-weight: bold;
+}
+
+.cont5{
+    color: rgb(120, 120, 120);
+}
+
+.time5{
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+}
+
+.Pic{
+    width: 45px;
+    margin-left: 100%;
+    transition: 0.50s all;
+}
+
+
+
+/* 6 */
+
+
+.not6{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 80%;
+    transition: 0.50s all;
+}
+
+.style-not6{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    transition: 0.50s all;
+}
+
+.image6{
+    width: 45px;
+    margin-right: 15px;
+    transition: 0.50s all;
+}
+
+.div-text-style6{
+    display: flex;
+    flex-direction: column;
+    transition: 0.50s all;
+}
+
+.text-style6{
+    width: fit-content;
+    font-size: 14px;
+    margin-bottom: 3px;
+    transition: 0.50s all;
+}
+
+.name6{
+    font-weight: bold;
+}
+
+.cont6{
+    color: rgb(120, 120, 120);
+}
+
+.time6{
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+}
+
+
+/* 7 */
+
+
+.not7{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 80%;
+    transition: 0.50s all;
+}
+
+.style-not7{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    transition: 0.50s all;
+}
+
+.image7{
+    width: 45px;
+    margin-right: 15px;
+    transition: 0.50s all;
+}
+
+.div-text-style7{
+    display: flex;
+    flex-direction: column;
+    transition: 0.50s all;
+}
+
+.text-style7{
+    width: fit-content;
+    font-size: 14px;
+    margin-bottom: 3px;
+    transition: 0.50s all;
+}
+
+.name7{
+    font-weight: bold;
+}
+
+.cont7{
+    color: rgb(120, 120, 120);
+}
+
+.object7{
+    color: rgb(120, 120, 120);
+    font-weight: bolder;
+    font-size: 15px;
+    margin-right: 2px;
+    transition: 0.50s all;
+}
+
+.object7:hover{
+    color: rgb(30, 60, 160);
+    cursor: pointer;
+}
+
+.time7{
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+}
+
+
+
+@media (max-width: 800px) {
+
+.container{
+    margin: 0px;
+}
+
+.style-container{
+    width: 100%;
+}
+
+}
