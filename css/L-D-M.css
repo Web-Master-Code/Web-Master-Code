@@ -311,3 +311,108 @@
 #LD-checker:checked ~ .main-con > .main-con-style > .con2-myProjects > .con2-projects-con > .snap-con-project::-webkit-scrollbar-track{
     background: #FFF;
 }
+
+/* page3 */
+
+
+/* page3 section 1 */
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .first-course > .first-course-style{
+    background-color: #333;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .first-course > .first-course-style > .course-top-sec > .course-head-text{
+    color: #FFF;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .first-course > .first-course-style > .course-top-sec > .course-btn{
+    background-color: #FFF;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .first-course > .first-course-style > .course-top-sec > .course-btn > .about-course-btn{
+    color: #333;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .first-course > .first-course-style > .course-top-sec > .course-btn > .btn-arrow > .course-img-btn-w{
+    opacity: 0;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .first-course > .first-course-style > .course-top-sec > .course-btn > .btn-arrow > .course-img-btn-c{
+    opacity: 1;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .first-course > .first-course-style > .course-top-sec > .about-course{
+    color: #FFF;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .first-course > .first-course-style > .course-img{
+    border-color: #FFF;
+}
+
+/* page3 section 2 */
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .second-course > .second-course-style{
+    background-color: #333;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .second-course > .second-course-style > .course-top-sec > .course-head-text{
+    color: #FFF;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .second-course > .second-course-style > .course-top-sec > .course-btn{
+    background-color: #FFF;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .second-course > .second-course-style > .course-top-sec > .course-btn > .about-course-btn{
+    color: #333;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .second-course > .second-course-style > .course-top-sec > .course-btn > .btn-arrow > .course-img-btn-w{
+    opacity: 0;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .second-course > .second-course-style > .course-top-sec > .course-btn > .btn-arrow > .course-img-btn-c{
+    opacity: 1;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .second-course > .second-course-style > .course-top-sec > .about-course{
+    color: #FFF;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .second-course > .second-course-style > .course-img{
+    border-color: #FFF;
+}
+
+/* page3 section 3 */
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .third-course > .third-course-style{
+    background-color: #333;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .third-course > .third-course-style > .course-top-sec > .course-head-text{
+    color: #FFF;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .third-course > .third-course-style > .course-top-sec > .course-btn{
+    background-color: #FFF;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .third-course > .third-course-style > .course-top-sec > .course-btn > .about-course-btn{
+    color: #333;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .third-course > .third-course-style > .course-top-sec > .course-btn > .btn-arrow > .course-img-btn-w{
+    opacity: 0;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .third-course > .third-course-style > .course-top-sec > .course-btn > .btn-arrow > .course-img-btn-c{
+    opacity: 1;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .third-course > .third-course-style > .course-top-sec > .about-course{
+    color: #FFF;
+}
+
+#LD-checker:checked ~ .main-con > .main-con-style > .con3-courses > .third-course > .third-course-style > .course-img{
+    border-color: #FFF;
+}
