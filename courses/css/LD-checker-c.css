@@ -1,0 +1,175 @@
+/* light dark mode btn pc display */
+
+#LD-checker-c:checked ~ .navbar > .navbar-style > .nav-right-side > .light-dark > .LD-container > .LD-ball{
+    transform: translateX(15px);
+    background-color: white;
+}
+
+#LD-checker-c:checked ~ .navbar > .navbar-style > .nav-right-side > .light-dark > .LD-container{
+    background-color: #333;
+    border: 2px solid #FFF;
+}
+
+#LD-checker-c:checked ~ .navbar > .navbar-style > .nav-right-side > .light-dark > .LD-container > .Light-imgW{
+    display: flex;
+}
+
+#LD-checker-c:checked ~ .navbar > .navbar-style > .nav-right-side > .light-dark > .LD-container > .Light-img{
+    display: none;
+}
+
+#LD-checker-c:checked ~ .navbar > .navbar-style > .nav-right-side > .light-dark > .LD-container > .Dark-imgW{
+    display: flex;
+}
+
+#LD-checker-c:checked ~ .navbar > .navbar-style > .nav-right-side > .light-dark > .LD-container > .Dark-img{
+    display: none;
+}
+
+/* light dark mode btn mobile display */
+
+#LD-checker-c:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .light-dark > .LD-container > .LD-ball{
+    transform: translateX(15px);
+    background-color: white;
+}
+
+#LD-checker-c:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .light-dark > .LD-container{
+    background-color: #333;
+    border: 2px solid #FFF;
+}
+
+#LD-checker-c:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .light-dark > .LD-container > .Light-imgW{
+    display: flex;
+}
+
+#LD-checker-c:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .light-dark > .LD-container > .Light-img{
+    display: none;
+}
+
+#LD-checker-c:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .light-dark > .LD-container > .Dark-imgW{
+    display: flex;
+}
+
+#LD-checker-c:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .light-dark > .LD-container > .Dark-img{
+    display: none;
+}
+
+/* navbar pc display */
+
+#LD-checker-c:checked ~ .navbar > .navbar-style{
+    border-bottom: 2px solid #FFF;
+}
+
+#LD-checker-c:checked ~ .navbar > .navbar-style > .nav-logo{
+    color: #333;
+}
+
+#LD-checker-c:checked ~ .navbar > .navbar-style > .sandwich > .line1{
+    background-color: #333;
+}
+
+#LD-checker-c:checked ~ .navbar > .navbar-style > .sandwich > .line2{
+    background-color: #333;
+}
+
+#LD-checker-c:checked ~ .navbar > .navbar-style > .sandwich > .line3{
+    background-color: #333;
+}
+
+/* navbar mobile display */
+
+#LD-checker-c:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items{
+    border-left: 2px solid #FFF;
+}
+
+/* pages */
+/* for pc */
+
+#page1:checked ~ .navbar > .navbar-style > .nav-right-side > .text-pos1 > .nav-text{
+    color: #333;
+}
+
+#page1:checked ~ .navbar > .navbar-style > .nav-right-side > .text-pos1 > .line{
+    background-color: #333;
+    width: 100%;
+}
+
+#page2:checked ~ .navbar > .navbar-style > .nav-right-side > .text-pos2 > .nav-text{
+    color: #333;
+}
+
+#page2:checked ~ .navbar > .navbar-style > .nav-right-side > .text-pos2 > .line{
+    background-color: #333;
+    width: 100%;
+}
+
+#page3:checked ~ .navbar > .navbar-style > .nav-right-side > .text-pos3 > .nav-text{
+    color: #333;
+}
+
+#page3:checked ~ .navbar > .navbar-style > .nav-right-side > .text-pos3 > .line{
+    background-color: #333;
+    width: 100%;
+}
+
+/* for mobile */
+
+#page1:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .text-pos1 > .nav-text{
+    color: #333;
+}
+
+#page1:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .text-pos1 > .line{
+    background-color: #333;
+    width: 100%;
+}
+
+#page2:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .text-pos2 > .nav-text{
+    color: #333;
+}
+
+#page2:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .text-pos2 > .line{
+    background-color: #333;
+    width: 100%;
+}
+
+#page3:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .text-pos3 > .nav-text{
+    color: #333;
+}
+
+#page3:checked ~ .navbar > .navbar-style > .nav-mobile-style > .nav-items > .text-pos3 > .line{
+    background-color: #333;
+    width: 100%;
+}
+
+/* main */
+
+#LD-checker-c:checked ~ .main-con > .main-con-style{
+    background-color: #333;
+}
+
+#LD-checker-c:checked ~ .main-con > .main-con-style > .video1-head-text{
+    color: #FFF;
+}
+
+#LD-checker-c:checked ~ .main-con > .main-con-style > .video-con > .video-con-style{
+    border-color: #FFF;
+}
+
+#LD-checker-c:checked ~ .main-con > .main-con-style > .video-con > .video-con-style > .video-img{
+    border-color: #FFF;
+}
+
+#LD-checker-c:checked ~ .main-con > .main-con-style > .video-con > .video-con-style > .video-exp-text{
+    color: #FFF;
+}
+
+#LD-checker-c:checked ~ .main-con > .main-con-style > .video-con > .video-con-style > a > .video-btn{
+    color: #333;
+    background-color: #FFF;
+    border-color: #FFF;
+}
+
+#LD-checker-c:checked ~ .main-con > .main-con-style > .video-con > .video-con-style > a > .video-btn:hover{
+    color: #FFF;
+    background-color: #333;
+}
